@@ -1,0 +1,211 @@
+@media (max-width: 1138px){
+    label.logo{
+        font-size: 32px;
+        padding-left: 60px;
+    }
+    nav ul{
+        display: block;
+        margin-right: 20px;
+    }
+    nav a{
+        font-size: 17px;
+    }
+}
+@media (max-width: 909px) {
+    nav #icon{
+        display: block;
+    }
+    nav ul{
+        position: fixed;
+        width: 100%;
+        height: 74.7vh;
+        background: rgba(1, 87, 87, 0.863);
+        top: 65px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+    nav li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav a{
+        font-size: 20px;
+    }
+    a.active, a:hover{
+        border: none;
+        color: #3498db;
+    }
+    nav ul.show{
+        left: 0;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+    
+    header{
+        background: url(images/header_fon.png) no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 89vh;
+    }
+    .focus{
+        position: absolute;
+        background: rgba(1, 87, 87, 0.863);
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 89vh;
+    }
+
+/* ============================================================================ */
+
+    .logo-number{
+        display: flex;
+        align-items: center;
+    }
+    .logo-number .logo{
+        padding-left: 0;
+        font-size: 24px;
+        margin-top: 13px;
+    }
+    .vertical-line{
+        margin-top: 13px;
+    }
+    .tel-number{
+        width: 155px;
+        color: white;
+        font-size: 14.5px;
+        padding-top: 15px;
+    }
+
+/* ============================================================================== */
+
+    .welcome-wepik{
+        padding: 100px 0 0 0;
+    }
+    .welcome-wepik p{
+        width: 80%;
+        color: white;
+        font-size: 13.5px;
+        padding: 5px 0;
+    }
+
+/* ============================================================================== */
+    
+    .best-of p{
+        width: 85%;
+    }
+    .ionicons,.creativ-design,.photoshop{
+        width: 100%;
+    }
+    .ionicons,.creativ-design{
+        margin-right: 0;
+    }
+
+/* ============================================================================== */
+
+    .four-icon{
+        width: 100%;
+        padding: 0;
+    }
+    
+/* ============================================================================== */
+
+    .phone{
+        width: 100%;
+        padding: 0;
+    }
+    .responsive{
+        width: 100%;
+    }
+
+/* ============================================================================== */
+    .girl{
+        padding: 70px 0 70px 0;
+    }
+    .girl-text{
+        width: 100%;
+        padding-bottom: 40px;
+    }
+/* ============================================================================== */
+
+    .map{
+        padding: 70px 0 70px 70px;
+    }
+    .text-container-map{
+        width: 100%;
+    }
+    .map-text h1{
+        width: 75%;
+    }
+    .map-image{
+        width: 100%;
+    }
+/* ============================================================================== */
+
+    .basic-plus-premium{
+        padding: 0;
+    }
+    .pricing-plan, .included-plan
+    {
+        width: 100%;
+    }
+    .basic, .plus{
+        border: 1px solid #c1d3d2;
+        margin-bottom: 20px;
+    }
+
+    /* ================================= */
+
+    .include-plans-three{
+       padding: 0; 
+    }
+    .maecenas, .vestibulum, .nulla{
+        width: 100%;
+    }
+    .need-help p{
+        width: 90%;
+    }
+/* ============================================================================== */
+
+
+    .do-container{
+        display: block;
+    }
+    .do-you-like{
+        padding-bottom: 10px;
+        width: 100%;
+    }
+    .do-you-like p, .download{
+        width: 100%;
+    }
+    .download{
+        width: 78%;
+        padding: 0 0 35px 0;
+        padding-left: 0;
+    }
+/* ============================================================================= */
+
+
+    .wapik, .company, .others, .newsletter{
+        width: 70%;
+    }
+    
+    /* ============================ */
+
+    .all-p{
+        width: 100%;
+        text-align: center;
+    }
+    .icon{
+        text-align: center;
+        width: 100%;
+    }
+    .icon span{
+        width: 35px;
+        height: 35px;
+        padding-top: 7px;
+    }
+}
